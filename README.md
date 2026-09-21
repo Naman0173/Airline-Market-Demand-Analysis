@@ -151,7 +151,7 @@ The Flask application is currently defined in `naman_airline_app.py`.
 Run:
 
 ```bash
-python aman_airline_app.py
+python naman_airline_app.py
 ```
 
 Then open:
@@ -241,7 +241,7 @@ Before deploying, make sure the deployment configuration matches the actual Flas
 The current application file is:
 
 ```text
-aman_airline_app.py
+naman_airline_app.py
 ```
 
 while the current `render.yaml` starts:
