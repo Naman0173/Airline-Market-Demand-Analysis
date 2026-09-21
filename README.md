@@ -71,7 +71,7 @@ The current flight-analysis flow uses generated mock flight data by default. Thi
 ```text
 Airline_Market_Demand_Analysis/
 │
-├── aman_airline_app.py       # Flask application
+├── naman_airline_app.py       # Flask application
 ├── render.yaml               # Render deployment configuration
 │
 └── templates/
