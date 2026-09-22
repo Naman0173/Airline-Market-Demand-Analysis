@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: Airline_Market_Demand_Analysis
+    env: python
+    buildCommand: |
+      pip install --upgrade pip setuptools wheel
+      pip install -r requirements.txt
+    startCommand: python app.py
+    envVars:
+      - key: API_KEY
+        sync: false
+    plan: free
+    runtime: python-3.11.7
